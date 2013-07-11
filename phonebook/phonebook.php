@@ -3,7 +3,7 @@
 if (urlencode(@$_REQUEST['action']) == "getpdf") {
     $db = new SQLite3('sqlite/phonebook.sqlite3');
     
-    include ('includes/fpdf/fpdf.php');
+    include ('includes/fpdf/fpdf.php');//check if fpdf included on server
     $pdf = new FPDF();
     $pdf->AddPage();
 
