@@ -6,6 +6,8 @@
 	$TEXT['global-xampp'] = "XAMPP for Windows";
 	$TEXT['global-showcode']="Show source code";
 	$TEXT['global-sourcecode']="Source code";
+        $TEXT['global-copyright'] = "© 2013 GUANGZEGUO.COM";
+        
 
 	// ---------------------------------------------------------------------
 	// NAVIGATION
@@ -296,7 +298,7 @@
 	$TEXT['phonebook-head'] = "Phone Book";
 
 	$TEXT['phonebook-text1'] = "A very lightweighted phone book web app";
-        
+        $TEXT['phonebook-text2'] = "Contact list as <a href='$_SERVER[PHP_SELF]?action=getpdf'>PDF document</a>.";
 	$TEXT['phonebook-error'] = "Couldn't open the database!";
 	$TEXT['phonebook-head1'] = "My phone contacts";
 	$TEXT['phonebook-attrib1'] = "Last name";

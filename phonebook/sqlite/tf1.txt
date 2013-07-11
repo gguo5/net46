@@ -1,0 +1,22 @@
+id          firstname   lastname    phone     
+----------  ----------  ----------  ----------
+2           cd          ab          232       
+3           gge         gg          2323221   
+     echo: off
+  explain: off
+  headers: on
+     mode: list
+nullvalue: ""
+   output: tf1.txt
+separator: "|"
+    stats: off
+    width: 
+     echo: off
+  explain: off
+  headers: on
+     mode: list
+nullvalue: ""
+   output: tf1.txt
+separator: "|"
+    stats: off
+    width: 
